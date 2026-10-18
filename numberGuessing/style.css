@@ -1,0 +1,55 @@
+body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: rgb(214, 212, 212);
+    }
+    .container {
+      border-radius: 10px;
+      padding: 30px;
+      background-color: white;
+      box-shadow:0px 4px 10px rgba(0, 0, 0, 0.2) ;
+      align-items: center;
+      transition: transform 0.2s ease-in, box-shadow 0.3s ease-in-out;
+    }
+    .container:hover {
+     box-shadow: 0px 4px 15px rgba(16, 9, 9, 0.5) ;
+    }
+
+    h1 {
+      margin-top: -1px;
+    }
+
+    label {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    #inputNumber {
+      padding: 10px 22px;
+      font-style: oblique;
+      border: 2px solid black;
+      margin-bottom: 10px;
+    }
+    p{
+      font-weight: bold;
+      text-align: center;
+    }
+    button {
+      padding: 10px 30px;
+      display: block;
+      margin: 0 auto;
+      border: none;
+      border-radius: 6px;
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      transition: transform 0.15s ease-in-out, opacity 0.15s ease;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+    button:active{
+      opacity: 0.7;
+    }
